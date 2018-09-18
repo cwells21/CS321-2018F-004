@@ -1,4 +1,4 @@
-This is Christopher Wells team leader of team 6.  We are actively meeting on Fridays to work as a team to learn GIT
+This is Christopher Wells team leader of team 6.  We are actively meeting on Fridays 11-2 to work as a team to learn GIT
 Sitepoint Jumpstart GIT by Shaumik Daityari //Book that was helpfull is seeing examples 
 Git Immersion (Labs 1-49)
 GIThub Learning path
