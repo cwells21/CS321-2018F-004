@@ -1,28 +1,253 @@
-5
+50
 1,outside,Clock in the Main Quad,You are standing in front of the George Mason University Clock. A plaque on the clock says it was a gift from the Class of 1999
-NORTH,0,You try to walk north towards the library, but the sidewalk is closed due to construction.
+NORTH,42,You walk towards Fenwick.
 SOUTH,3,You walk around the grassy median and head south, past the Johnson Center.
-EAST,2,You walk around the fountains as you head towards the statue.
-WEST,4,You try to walk west towards the dorms, and the large student rally is gone!, Home here I come!.
+EAST, 30, You walk towards the plaza
+WEST,4,You try to walk west towards the southside, skyline, and the dorms, and the large student rally is gone!, Home here I come!.
 2,outside,Mason Statue,There is a large statue of George Mason resting at the end of the sidewalk. The Mason statue is currently wearing a green Patriots basketball t-shirt.
-NORTH,0,You start to walk north towards the parking deck, but you really don't want to, so you stop yourself.
-SOUTH,0,You try to enter the Johnson Center, but the entrances are closed due to construction.
-WEST,1,You walk around the fountains as you head towards the clock.
+NORTH,38,You walk towards SUB I.
+SOUTH,46,You walk into the Center for the Arts.
+WEST, 30,You walk around the fountains as you head towards North Plaza.
 EAST,0,You look to the west and see a very long staircase just past the traffic circle. You decide against going that direction.
-3,outside,Exploratory Hall,You are standing out front of the new Exploratory Hall.
+3,outside,Outside of Exploratory Hall,You are standing out front of the new Exploratory Hall.
 NORTH,1,You head up the sidewalk, towards the clock.
-SOUTH,0,You try to head south, but too many students are smoking near Enterprise hall, so you stay where you are.
-WEST,0,You try to head towards the Johnson Center, but the entrance is closed for construction.
-EAST,0,You look towards Exploratory Hall, but decide to just admire the view from where you are.
-4,inside,Dorm Building,Dorm Building main hallway leading to the elevator.
+SOUTH,9,You try to head south, but too many students are smoking near Enterprise hall, so you stay where you are.
+WEST,19,You try to head towards the South Plaza
+EAST,8,You look towards Exploratory Hall, but decide to just admire the view from where you are.
+4, southside/skyline underpass
+NORTH, 7, You head to skyline fitness.
+SOUTH, 6, You head to southside.
+WEST, 5, You head to the dorms.
+EAST, 1, You head to the clock tower.
+5,inside,Dorm Building,Dorm Building main hallway leading to the elevator.
 NORTH,100000,You head north, into the elevator. 
 SOUTH,0,You try to head south, back to the Hallway.
 WEST,0,You tried heading west, there is nothing there.
-EAST,1,You head back to the clock tower
+EAST,4,You head back to the southside/skyline underpass
+6, Southside - a dining hall
+NORTH, 4, You leave southside.
+SOUTH, 0, You get stuck looking at food.
+WEST, 0, You get stuck looking at food.
+EAST, 0, You get stuck looking at food.
+7, Skyline - a gym
+NORTH, 0, You get scared off by some gym equipment
+SOUTH, 4, You leave skyline
+WEST, 0, You get scared off by some gym equipment
+EAST, 0, You get scared off by some gym equipment
+8, Exploratory Hall
+NORTH, 0, You trip over a table.
+SOUTH, 0, You walk into a wall.
+WEST, 3, You leave Exploratory Hall.
+EAST, 0, You walk into a wall.
+9, Enterprise Hall Underpass
+NORTH, 3, You walk towards Exploratory Hall.
+SOUTH, 12, You walk along Research Hall.
+WEST, 11, You walk to side 'b' of Enterprise Hall.
+EAST, 10, You walk to side 'a' of Enterprise Hall.
+10, Side 'a' of Enterprise Hall.
+NORTH, 0, You walk into a wall.
+SOUTH, 0, You walk into a wall.
+WEST, 9, You walk out of Enterprise Hall.
+EAST, 0, trip over a bench.
+11, Side 'b' of Enterprise Hall.
+NORTH, 0, You walk into a wall.
+SOUTH, 0, You walk into a wall.
+WEST, 0, trip over a bench.
+EAST, 9, You walk out of Enterprise Hall.
+12, Path along Research Hall
+NORTH, 9, You walk towards Enterprise Hall.
+SOUTH, 13, You walk towards the Engineering building.
+WEST, 15, You walk towards the School of Art.
+EAST, 14, You walk towards Research Hall.
+13, Engineering Building
+NORTH, 12, You walk towards Research Hall.
+SOUTH, 0, You walk into a window.
+WEST, 15, You walk towards the School of Art.
+EAST, You walk into a wall.
+14, Research Hall
+NORTH, 0, You walk into a wall.
+SOUTH, 0, You walk into a wall.
+WEST, 12, You walk out of Research Hall.
+EAST, 0, You walk into a door.
+15, School of Art
+NORTH, 16, You walk towards Innovation Hall.
+SOUTH, 0, You walk into a painting.
+WEST, 0, You walk into a sculpture.
+EAST, 12, You walk towards Research Hall.
+16, Innovation Hall
+NORTH, 17, You walk out of Innovation Hall.
+SOUTH, 15, You walk towards the School of Art.
+WEST, 18, You walk towards the Patriot Center.
+EAST, 0, You walk into a wall
+17, Outside of Innovation Hall.
+NORTH, 20, You walk towards College Hall.
+SOUTH, 16, You walk into Innovation Hall.
+WEST, 18, You walk towards the Patriot Center.
+EAST, 19, You walk towards South Plaza.
+18, The Patriot Center
+NORTH, 0, You get tired of walking.
+SOUTH, 0, You get tired of walking
+WEST, 0, You get tired of walking.
+EAST, 17, Outside of Innovation Hall.
+19, South Plaza
+NORTH, 21, You walk into the lower floor of the Johnson Center.
+SOUTH, 15, You walk towards the School of Art.
+WEST, 17, You walk towards Innovation Hall.
+EAST, 3, You walk towards Exploratory.
+20, College Hall
+NORTH, 0, You get bored and turn back.
+SOUTH, 17, You wak towards Innovation Hall.
+WEST, 0, You get bored and turn back.
+EAST, 46, You walk into the Music Theater Building.
+21, Lower floor of Johnson Center
+NORTH, 24, You walk up the stairs to the main level of the Johnson Center.
+SOUTH, 19, You walk out into South Plaza.
+WEST, 22, You walk into Indaroma and Red Hot & Blue
+EAST, 23, You walk into Starbucks.
+22, Indaroma and Red Hot & Blue
+NORTH, 21, You walk out.
+SOUTH, 0, You consider Red Hot & Blue.
+WEST, 0, You consider Indaroma.
+EAST, 21, You walk out.
+23, Starbucks
+NORTH, 21, You walk out.
+SOUTH, 0, You consider Starbucks
+WEST, 21, You walk out.
+EAST, 0, You consider Starbucks
+24, Johnson Center - Information Desk
+NORTH, 25, You walk towards the northern side of the Johnson Center.
+SOUTH, 21, You walk down the stairs to the lower level of the Johnson Center.
+WEST, 45, You walk towards the Music Theater Building.
+EAST, 3, You walk towards Exploratory Hall.
+25, Johnson center - Tables
+NORTH, 26, You walk towards the northern side of the Johnson Center.
+SOUTH, 24, You walk towards the Information Desk.
+WEST, 27, You walk towards food.
+EAST, 28, You walk towards an alcove of tables.
+26, Johnson Center - North
+NORTH, 29, You walk into the Book Store.
+SOUTH, 25, You walk towards the Johnson Center tables.
+WEST, 2, You walk out to the Mason Statue.
+EAST, 30, You walk out to North Plaza.
+27, Restaurants
+NORTH, 26, You walk towards the northern side of the Johnson Center.
+SOUTH, 24, You walk towards the Johnson Center Information Desk.
+WEST, 0, You consider getting food but the lines are too long.
+EAST, 25, You walk towards the Johnson Center tables.
+28, Johnson Center - Alcove
+NORTH, 0, You walk into a wall.
+SOUTH, 0, You walk into a microwave.
+WEST, 25, You walk towards the Johnson Center tables
+EAST, 0, You walk into a wall.
+29, Johnson Center - Book Store.
+NORTH, 0, You walk into a wall.
+SOUTH, 26, You walk out of the Book Store.
+WEST, 0, You walk into a pile of clothes
+EAST, 0, You walk into a cash register.
+30, North Plaza
+NORTH, 31, You walk towards the Robinson underpass.
+SOUTH, 3, You walk towards Exploratory hall.
+WEST, 2, You walk around the fountains as you head towards the statue.
+EAST, 1, You walk towards the statue.
+31, Robinson Underpass
+NORTH, 34, You walk towards SUB I.
+SOUTH, 30, You walk towards North Plaza.
+WEST, 32, You walk into Robinson A.
+EAST, 33, You walk into Robinson B.
+32, Robinson A
+NORTH, 0, You walk into a wall.
+SOUTH, 0, You walk into a wall.
+WEST, 0, You walk into a wall.
+EAST, 31, You walk out of Robinson A.
+33, Robinson B
+NORTH, 0, You walk into a wall.
+SOUTH, 0, You walk into a wall.
+WEST, 31, You walk out of Robinson B.
+EAST, 0, You walk into a wall.
+34, SUB I - inside entrance to lower level
+NORTH, 36, You walk towards Gas Station Sushi
+SOUTH, 31, You walk out of SUB I.
+WEST, 35, You walk into a sports bar.
+EAST, 0, You walk into a wall.
+35, SUB I - sports bar whatsitsname
+NORTH, 0, You walk into a wall.
+SOUTH, 0, You trip over some tables.
+WEST, 0, You walk into the bar.
+EAST, 34, You leave the sports bar.
+36, SUB I -Gas Station Sushi
+NORTH, 37, You walk towards Chick Fil A.
+SOUTH, 34, You walk towards the entrance of SUB I.
+WEST, 0, You consider Gas Station Sushi.
+EAST, 0, You walk into a wall.
+37, SUB I - Chick Fil A
+NORTH, 38, You walk towards the main staircase of SUB I.
+SOUTH, 36, You walk towards Gas Station Sushi.
+WEST, 0, You consider Chick Fil A.
+EAST, 0, You consider Gas Station Sandwiches.
+38, SUB I - Main Staircase
+NORTH, 2, You walk out towards the Mason Statue.
+SOUTH, 39, You walk up the main Staircase.
+WEST, 0, You consider the Financial Aid Office
+EAST, 37, You walk towards Chick Fil A.
+39, SUB I - Center
+NORTH, 40, You walk out of SUB I towards the MIX.
+SOUTH, 38, You walk towards the main staircase.
+WEST, 0, You consider robbing some offices.
+EAST, 0, You consider robbin some offices.
+40, Library and Mix intersection.
+NORTH, 41, You walk into the MIX.
+SOUTH, 39, You walk towards SUB I.
+WEST, 47, You walk towards Northern Neck Starbucks.
+EAST, 42, You walk into the lobby of Fenwick.
+41, The MIX - Front Counter
+NORTH, 0, You walk into the front counter.
+SOUTH, 40, You walk out of the MIX.
+WEST, 44, You walk towards the work area of the MIX
+EAST, 0, You consider an empty hallway
+42, Fenwick - Lobby
+NORTH, 43, You walk into the library.
+SOUTH, 0, You walk into a window.
+WEST, 40, You walk out of the lobby towards the MIX.
+EAST, 1, You walk out of the lobby towards the Clock Tower.
+43, Fenwick - library
+NORTH, 0, You consider a pile of books.
+SOUTH, 42, You walk into the lobby of Fenwick.
+WEST, 0, You consider a pile of books.
+EAST, 0, You consider a pile of books.
+44, The MIX - Work Area
+NORTH, 0, You trip over some students.
+SOUTH, 0, You trip over some students.
+WEST, 0, You trip over some students.
+EAST, 41, You walk to the front counter of The MIX.
+45, Music Theater Building
+NORTH, 46, You walk towards the Center for the Arts.
+SOUTH, 0, You get bored and decide not to.
+WEST, 20, You walk towards College Hall.
+EAST, 24, You walk towards the Johnson Center.
+46, Center for the Arts
+NORTH, 2, You walk out to the Mason Statue.
+SOUTH, 45, You walk towards the Music Theater Building.
+WEST, 0, You walk into a door.
+EAST, 0, You walk into a wall.
+47, Northern Neck Starbucks
+NORTH, 48, You walk towards Merten Hall.
+SOUTH, 4, You walk towards SouthSide and Skyline.
+WEST, 49, You walk towards old campus.
+EAST, 100000, You walk towards the dorms.
+48, Merten Hall
+NORTH,0, You walk into a hall.
+SOUTH, 47, You walk towards Northern Neck Starbucks
+WEST, 0, You consider Panda
+EAST, 0, You consider Einstein's
+49, Old Campus
+NORTH, 0, You get lost and return to where you started
+SOUTH, 0, You get lost and return to where you started
+WEST, 0, You get lost and return to where you started
+EAST, 47, You walk towards Northern Neck Starbucks
 100000,inside,Elevator, You can now go to your private room, type move north.
 NORTH,100001,You are headed to your room through the north exit
 SOUTH,4,You try to head back to the Hallway
-WEST,0,You tried heading west, there is nothing there.
+WEST,47,You walk towards Northern Neck Starbucks
 EAST,0,You tried heading, east there is nothing there.
 
 
