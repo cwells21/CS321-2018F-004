@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogues>
+        <dialogue id = "-1">
+                <intro>
+                You see a man yelling about the gifts of God while a small
+		group of people listen. You decide to avoid the situation, and
+		ignore it.
+                </intro>
+        </dialogue>
+</dialogues>
