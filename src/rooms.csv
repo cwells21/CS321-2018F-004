@@ -1,19 +1,19 @@
-5
+13
 1,outside,Clock in the Main Quad,You are standing in front of the George Mason University Clock. A plaque on the clock says it was a gift from the Class of 1999
-NORTH,0,You try to walk north towards the library, but the sidewalk is closed due to construction.
+NORTH,7,You walk north into SUB-1
 SOUTH,3,You walk around the grassy median and head south, past the Johnson Center.
 EAST,2,You walk around the fountains as you head towards the statue.
-WEST,4,You try to walk west towards the dorms, and the large student rally is gone!, Home here I come!.
+WEST,4,You try to walk west towards the dorms, and the large student rally is gone! Home here I come!.
 2,outside,Mason Statue,There is a large statue of George Mason resting at the end of the sidewalk. The Mason statue is currently wearing a green Patriots basketball t-shirt.
 NORTH,0,You start to walk north towards the parking deck, but you really don't want to, so you stop yourself.
 SOUTH,0,You try to enter the Johnson Center, but the entrances are closed due to construction.
 WEST,1,You walk around the fountains as you head towards the clock.
-EAST,0,You look to the west and see a very long staircase just past the traffic circle. You decide against going that direction.
+EAST,9,You look to the west and go towards MRP-8
 3,outside,Exploratory Hall,You are standing out front of the new Exploratory Hall.
 NORTH,1,You head up the sidewalk, towards the clock.
-SOUTH,0,You try to head south, but too many students are smoking near Enterprise hall, so you stay where you are.
-WEST,0,You try to head towards the Johnson Center, but the entrance is closed for construction.
-EAST,0,You look towards Exploratory Hall, but decide to just admire the view from where you are.
+SOUTH,5,You walk to the Engineering Building
+WEST,6,You go into the Johnson Center
+EAST,12,You walk into Exploratory Hall
 4,inside,Dorm Building,Dorm Building main hallway leading to the elevator.
 NORTH,100000,You head north, into the elevator. 
 SOUTH,0,You try to head south, back to the Hallway.
@@ -24,3 +24,49 @@ NORTH,100001,You are headed to your room through the north exit
 SOUTH,4,You try to head back to the Hallway
 WEST,0,You tried heading west, there is nothing there.
 EAST,0,You tried heading, east there is nothing there.
+5,inside,Engineering Building,You are inside the Nguyen Engineering Building
+NORTH,3,You walk north towards Exploratory Hall
+SOUTH,0,You start going south, but decide to stay on campus instead
+WEST,0,You look to the west, and decide not to
+EAST,0,You go to Einstein's Bagels, and grab a bagel.
+Steve,Sarah
+6,inside,JC,You are inside the Johnson Center
+NORTH,4,You walk out to the dorms
+SOUTH,0,You start to go towards Innovation, but the way is closed due to construction
+WEST,0,You trip and fall
+EAST,3,You walk out to Exploratory Hall
+Brent,Patty
+7,inside,SUB-1,Student Union Building 1
+NORTH,0,Nothing there! Try again!
+SOUTH,1,You walk back to the clock tower
+EAST,-8,WOW SECRET!
+WEST,0,You go to chick-fil-a, but it is closed
+Chris
+8,inside,SECRET ROOM,You found a secret room!
+NORTH,0,You admire the secret room
+SOUTH,0,You sit on the nice sofa in the secret room
+EAST,0,You search for another secret room, but this world is not meta enough for a secret room inside a secret room
+WEST,7,You leave the secret room
+9,inside,MRP-8,Factory entrance
+NORTH,0,fill
+SOUTH,0,fill
+EAST,0,fill
+WEST,2,fill
+Stacy
+10,inside,MRP-8,Factory Overhang
+NORTH,0,fill
+SOUTH,9,fill
+WEST,0,fill
+EAST,-11,fill
+11,inside,MRP-8,Office
+NORTH,0,fill
+SOUTH,0,fill
+WEST,10,fill
+EAST,0,fill
+Security
+12,inside,Exploratory Hall,You are standing under the skeleton of a large animal
+NORTH,0,fill
+SOUTH,0,fill
+EAST,0,fill
+WEST,3,fill
+Erik

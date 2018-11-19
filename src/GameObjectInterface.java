@@ -422,6 +422,29 @@ public interface GameObjectInterface extends Remote {
      * @return String representation of the map
      */
     public String showMap(String name) throws RemoteException;
+
+    /**
+     * Talk to an NPC in the player's room
+     * @param player Name of the player
+     * @param npc Name of the npc
+     * @return String response from the npc if found
+     */
+    public String talk(String player, String npc) throws RemoteException;
+
+    /**
+     * Checks the implementation of the given npc
+     * @param player Name of the player
+     * @param npc Name of the npc
+     * @return True if uses team 6 implementation
+     */
+    public boolean checkNPCValidity(String player, String npc) throws RemoteException;
+
+    /**
+     * Returns an the player's current quest
+     * @param name Name of the player
+     * @return String representation of current quest progress
+     */
+    public String journal(String name) throws RemoteException;
 	
 	/**
 	 * Delete a player's account.
