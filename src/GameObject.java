@@ -259,6 +259,28 @@ public class GameObject extends UnicastRemoteObject implements GameObjectInterfa
      return core.joke(filename);
    }
 
+	/**
+	 * Initiates dialogue with NPC
+	 * @param playerName Player name
+	 * @param npcName NPC name
+	 * @return Dialogue options for player
+     * @throws RemoteException
+	 */
+    public String talkNpc(String name, String npcName) throws RemoteException {
+        return core.talkNpc(name, npcName);
+    }
+
+	/**
+	 * Selects dialogue option with NPC and gets response
+	 * @param playerName Player name
+	 * @param npcName NPC name
+	 * @param dialogueChoice Choice of dialogue option
+	 * @return Dialogue options for player
+	 */
+    public String selectNPCDialogueOption(String name, String npcName, int dialogueChoice) throws RemoteException {
+        return core.selectNPCDialogueOption(name, npcName, dialogueChoice);
+    }
+
     //Feature 411. Shout
     /**
      *Shouts "message" to everyone that is online
@@ -319,6 +341,12 @@ public class GameObject extends UnicastRemoteObject implements GameObjectInterfa
     public String pickup(String name, String target) throws RemoteException {
         return core.pickup(name, target);
     }
+
+    @Override
+    public String pickup(String name, String object, int amount) throws RemoteException{
+        return core.pickup(name, object, amount);
+    }
+
 
     public String pickupAll(String name)throws RemoteException{
         return core.pickupAll(name);
@@ -738,8 +766,17 @@ public class GameObject extends UnicastRemoteObject implements GameObjectInterfa
      * @return Message showing success
      * @throws RemoteException
      */
-    public String accept(String challenger, String challengee) throws RemoteException{
-      return core.accept(challenger, challengee);
+    public String accept(String challenger, String challengee, String rounds) throws RemoteException{
+      return core.accept(challenger, challengee, rounds);
+    }
+
+    /**
+     * @param player is the name of the player that wants to turn off RPS resolutions
+     * @return Message showing success
+     * @throws RemoteException
+     */
+    public String toggleRPSChat(String player) throws RemoteException{
+	return core.toggleRPSChat(player);
     }
   
     /**
