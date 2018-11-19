@@ -51,8 +51,6 @@ public class Player {
     private String playerItemTitle = "";
     private final long accountAge;
 
-<<<<<<< HEAD
-=======
     //Tracks which quest the player is on
     private int questProgress;
     //Used to count victories in RPS quest
@@ -60,7 +58,6 @@ public class Player {
     //Used to count pokes in poke quests
     private int pokeCount;
 
->>>>>>> 111_mainStory
     public Player(@JsonProperty("name") String name, @JsonProperty("accountAge") long accountAge) {
         this.currentRoom = 1;
         this.currentDirection = Direction.NORTH;
@@ -70,11 +67,8 @@ public class Player {
         this.chestImage = new LinkedList<>();
         this.money = 0;
         this.recovery = new ArrayList<String>();
-<<<<<<< HEAD
-=======
         this.questProgress = 0;
 	this.rpsVictoryCount = 0;
->>>>>>> 111_mainStory
     }
 
     public int getDormId() {return this.dormId;}
@@ -358,81 +352,11 @@ public class Player {
 			return null;
 		}
 		return q;
-<<<<<<< HEAD
-=======
-	}
-	
-	public long getAccountAge() {
-		return accountAge;
->>>>>>> 111_mainStory
 	}
 	
 	public long getAccountAge() {
 		return accountAge;
 	}
-
-    //Update dialogue status of this player with other npcs
-    public void updateDialogueList(String npcName, String dialogueTag, int updateAmount)
-    {
-        for (int i = 0; i < dialogueList.size(); i++) {
-            if (dialogueList.get(i).getName().equals(npcName))
-            {
-                dialogueList.get(i).changeDialogueList(dialogueTag, updateAmount);
-            }
-        }
-    }
-
-    //Get dialogue status of this player with other npcs
-    public ArrayList<NPC> getDialogueList()
-    {
-        return dialogueList;
-    }
-
-    //Overload method for getDialogueIdFromList
-    public int getDialogueIdFromList(String npcName, String dialogueTag)
-    {
-        return getDialogueIdFromList(npcName, dialogueTag, "");
-    }
-
-    //Takes the dialgoue id of specific dialogue from npc. 
-    //If no dialogue id exists, add this npc to the dialogueLIst
-    public int getDialogueIdFromList(String npcName, String dialogueTag, String prompt)
-    {
-        int result = -1;
-        for (int i = 0; i < dialogueList.size(); i++) {
-            if (dialogueList.get(i).getName().equals(npcName))
-            {
-                result = dialogueList.get(i).getDialogueId(dialogueTag);
-            }
-        }
-
-        if (result == -1)
-        {
-            addDialogueList(npcName, dialogueTag, prompt);
-            result = 1;
-        }
-
-        return result;
-    }
-
-    //Helper method used to add npc to the dialogueList
-    private void addDialogueList(String npcName, String dialogueTag, String prompt)
-    {
-        boolean found = false;
-        for (int i = 0; i < dialogueList.size(); i++) {
-            if (dialogueList.get(i).getName().equals(npcName))
-            {
-                found = true;
-                //dialogueList.get(i).addToDialogueList(dialogueTag, prompt);
-            }
-        }
-
-        if (found == false)
-        {
-            NPC npc = new NPC(npcName, -1, new LinkedList<String>(), new ArrayList<DialogueOption>());
-            dialogueList.add(npc);
-        }
-    }
 
     //Update dialogue status of this player with other npcs
     public void updateDialogueList(String npcName, String dialogueTag, int updateAmount)
